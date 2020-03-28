@@ -12,10 +12,9 @@
         />
 
         <q-toolbar-title>
-          Quasar App
+          domresc.github.io
         </q-toolbar-title>
 
-        <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>
     </q-header>
 
