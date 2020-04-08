@@ -1,10 +1,12 @@
 <template>
   <div class="fixed-center text-center">
     <p>
-      <img src="~assets/sad.svg" style="width:30vw;max-width:150px;" />
+      <q-icon class="icon" name="far fa-frown" size="250px"></q-icon>
     </p>
-    <p class="text-faded">Sorry, nothing here...<strong>(404)</strong></p>
-    <q-btn color="secondary" style="width:200px;" to="/" label="Go back" />
+    <p class="q-mt-xl text-faded">
+      Sorry, nothing here...<strong>(404)</strong>
+    </p>
+    <q-btn color="accent" style="width:200px;" to="/" label="Go back" />
   </div>
 </template>
 
@@ -13,3 +15,5 @@ export default {
   name: "Error404"
 };
 </script>
+
+<style lang="sass" scoped></style>

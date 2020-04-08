@@ -2,30 +2,68 @@
   <q-layout view="hHh lpR fFf">
     <q-header class="my-header">
       <q-toolbar>
-        <q-toolbar-title class="mainFont">
+        <q-toolbar-title class="text-weight-light">
           c:\domresc\blog>
         </q-toolbar-title>
 
-        <q-tabs v-model="tab" active-color="accent">
-          <q-route-tab class="mainFont" name="home" to="/">Home</q-route-tab>
-          <q-route-tab class="mainFont" name="blog" to="/blog"
+        <q-btn class="separator xs" flat icon="fas fa-bars">
+          <q-menu auto-close>
+            <q-list padding>
+              <q-item clickable to="/">
+                <q-item-section class="text-accent">Home</q-item-section>
+              </q-item>
+              <q-item clickable to="/blog">
+                <q-item-section class="text-accent">Blog</q-item-section>
+              </q-item>
+              <q-item clickable to="/portfolio">
+                <q-item-section class="text-accent">Portfolio</q-item-section>
+              </q-item>
+            </q-list>
+          </q-menu>
+        </q-btn>
+
+        <q-tabs v-model="tab" class="gt-xs" active-color="accent">
+          <q-route-tab class="text-weight-light" name="home" to="/"
+            >Home</q-route-tab
+          >
+          <q-route-tab class="text-weight-light" name="blog" to="/blog"
             >Blog</q-route-tab
           >
-          <q-route-tab class="mainFont" name="portfolio" to="/portfolio"
+          <q-route-tab
+            class="text-weight-light"
+            name="portfolio"
+            to="/portfolio"
             >Portfolio</q-route-tab
           >
         </q-tabs>
 
-        <q-icon class="separator" name="fas fa-grip-lines-vertical"></q-icon>
+        <q-icon
+          class="separator gt-xs"
+          name="fas fa-grip-lines-vertical"
+        ></q-icon>
         <q-btn :icon="icon" @click="darkToggle" flat round dense></q-btn>
       </q-toolbar>
     </q-header>
-    <q-page-container> <router-view> </router-view></q-page-container>
+    <q-page-container>
+      <router-view></router-view>
+    </q-page-container>
+
+    <!--   <q-footer class="my-header">
+      <q-toolbar>
+        <q-toolbar-title>
+          <q-avatar>
+            <img src="https://cdn.quasar.dev/logo/svg/quasar-logo.svg" />
+          </q-avatar>
+          Title
+        </q-toolbar-title>
+      </q-toolbar>
+    </q-footer> -->
   </q-layout>
 </template>
 
 <script>
 export default {
+  name: "Main",
   watch: {},
   methods: {
     darkToggle() {
@@ -46,8 +84,4 @@ export default {
 .separator
   margin-left: 25px
   margin-right: 25px
-
-.mainFont
-  font-weight: 300
-  font-size: medium
 </style>

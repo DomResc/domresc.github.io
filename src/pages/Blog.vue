@@ -1,7 +1,9 @@
 <template>
-  <q-page padding>
-    <!-- content -->
-    Blog
+  <q-page>
+    <div class="text-center">
+      <!-- content -->
+      <p>Blog</p>
+    </div>
   </q-page>
 </template>
 

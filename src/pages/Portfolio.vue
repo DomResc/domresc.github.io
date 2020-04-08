@@ -1,12 +1,14 @@
 <template>
-  <q-page padding>
-    <!-- content -->
-    Portfolio
+  <q-page>
+    <div class="text-center">
+      <!-- content -->
+      <p>Portfolio</p>
+    </div>
   </q-page>
 </template>
 
 <script>
 export default {
-  // name: 'PageName',
+  name: "Portfolio"
 };
 </script>
