@@ -1,16 +1,6 @@
 <template>
   <q-page>
-    <q-timeline class="q-pa-xl" :layout="layout" v-if="posts.length">
-      <q-timeline-entry
-        v-for="post in posts"
-        :key="post.title"
-        :title="post.title"
-        :subtitle="post.date"
-      >
-        <div>{{ post.body }}</div>
-      </q-timeline-entry>
-    </q-timeline>
-    <div v-else class="fixed-center text-center">
+    <div class="fixed-center text-center">
       <p>
         <q-icon class="icon" name="fab fa-pied-piper-alt" size="xl"></q-icon>
       </p>
@@ -35,15 +25,7 @@ export default {
   },
   data() {
     return {
-      posts: [
-        /* 
-        {
-          title: "",
-          date: "",
-          body: ""
-        } 
-        */
-      ]
+      posts: []
     };
   }
 };

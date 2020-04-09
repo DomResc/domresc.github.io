@@ -1,6 +1,6 @@
-# domresc.github.io (domresc.github.io)
+# domresc.github.io
 
-My personal blog
+My personal blog, free and open-source, clone and use it if you like it!
 
 ## Install the dependencies
 
@@ -26,6 +26,10 @@ npm run lint
 quasar build
 ```
 
-### Customize the configuration
+### Deploy on Github
 
-See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
+See [Deploying on GitHub Pages](https://quasar.dev/quasar-cli/developing-spa/deploying#Deploying-on-GitHub-Pages).
+
+```bash
+npm run deploy
+```
