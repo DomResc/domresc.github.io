@@ -37,8 +37,10 @@
           >
         </q-tabs>
 
-        <q-separator class="separator" vertical />
-
+        <q-icon
+          class="separator gt-xs"
+          name="fas fa-grip-lines-vertical"
+        ></q-icon>
         <q-btn :icon="icon" @click="darkToggle" flat round size="sm"></q-btn>
       </q-toolbar>
     </q-header>
@@ -64,7 +66,7 @@ export default {
   watch: {},
   methods: {
     darkToggle() {
-      this.$data.icon = this.$q.dark.isActive ? "fas fa-sun" : "fas fa-moon";
+      this.$q.icon = this.$q.dark.isActive ? "fas fa-sun" : "fas fa-moon";
       this.$q.dark.toggle();
     }
   },
@@ -79,5 +81,6 @@ export default {
 
 <style lang="sass" scoped>
 .separator
-  margin: 15px
+  margin-left: 25px
+  margin-right: 25px
 </style>

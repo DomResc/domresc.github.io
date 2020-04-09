@@ -1,7 +1,7 @@
 <template>
   <div class="fixed-center text-center">
     <p>
-      <q-icon class="icon" name="far fa-frown" size="250px"></q-icon>
+      <q-icon class="icon" name="far fa-frown" size="xl"></q-icon>
     </p>
     <p class="q-mt-xl text-faded">
       Sorry, nothing here...<strong>(404)</strong>
