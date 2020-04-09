@@ -37,27 +37,24 @@
           >
         </q-tabs>
 
-        <q-icon
-          class="separator gt-xs"
-          name="fas fa-grip-lines-vertical"
-        ></q-icon>
-        <q-btn :icon="icon" @click="darkToggle" flat round dense></q-btn>
+        <q-separator class="separator" vertical />
+
+        <q-btn :icon="icon" @click="darkToggle" flat round size="sm"></q-btn>
       </q-toolbar>
     </q-header>
     <q-page-container>
       <router-view></router-view>
     </q-page-container>
 
-    <!--   <q-footer class="my-header">
+    <q-footer class="my-header">
       <q-toolbar>
-        <q-toolbar-title>
-          <q-avatar>
-            <img src="https://cdn.quasar.dev/logo/svg/quasar-logo.svg" />
-          </q-avatar>
-          Title
-        </q-toolbar-title>
+        <q-space></q-space>
+        <div>Made with</div>
+        <q-icon color="red" name="fas fa-heart" class="q-mx-md"></q-icon>
+        <div>in © 2020</div>
+        <q-space></q-space>
       </q-toolbar>
-    </q-footer> -->
+    </q-footer>
   </q-layout>
 </template>
 
@@ -82,6 +79,5 @@ export default {
 
 <style lang="sass" scoped>
 .separator
-  margin-left: 25px
-  margin-right: 25px
+  margin: 15px
 </style>
