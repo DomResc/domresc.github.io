@@ -14,6 +14,8 @@
   "dependencies": {
     "@quasar/extras": "^1.0.0",
     "axios": "^0.18.1",
+    "meed": "^1.0.1",
+    "node-fetch": "^2.6.0",
     "quasar": "^1.0.0",
     "vue-i18n": "^8.0.0"
   },
