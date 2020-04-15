@@ -10,7 +10,7 @@
         Domenico Rescigno
       </p>
       <p class="text-subtitle1">
-        Software analyst, Game Designer
+        Software Analyst, Game Designer
       </p>
 
       <p class="q-gutter-md">
