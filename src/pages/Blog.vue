@@ -1,13 +1,31 @@
 <template>
   <q-page>
-    <div class="fixed-center text-center">
-      <p>
-        <q-icon class="icon" name="fab fa-pied-piper-alt" size="xl"></q-icon>
-      </p>
-      <p class="q-mt-xl text-faded">
-        Sorry, nothing here... for the time being
-      </p>
-    </div>
+    <q-timeline class="q-pa-xl" :layout="layout">
+      <!-- Medium -->
+      <q-timeline-entry heading>Medium</q-timeline-entry>
+
+      <q-timeline-entry
+        title="EP. 0 — Introduction: Why Godot, Why C#"
+        subtitle="april, 2020"
+      >
+        <div>
+          Why use Godot as your game engine, and why use C#
+        </div>
+
+        <p class="q-gutter-md q-my-xs">
+          <q-btn
+            type="a"
+            href="https://medium.com/@domresc/ep-0-introduction-why-godot-why-c-b129a40362d5?source=friends_link&sk=ce2775ab39ec7907a9f89a55ff3f32d1"
+            target="__blank"
+            round
+            flat
+            dense
+            icon="fab fa-medium"
+          ></q-btn>
+        </p>
+      </q-timeline-entry>
+      <!-- End Medium -->
+    </q-timeline>
   </q-page>
 </template>
 
