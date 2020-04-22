@@ -24,6 +24,27 @@
           ></q-btn>
         </p>
       </q-timeline-entry>
+      <q-timeline-entry
+        title="EP. 1 - Installation of Godot Engine and configuration of a development environment for C#"
+        subtitle="april, 2020"
+      >
+        <div>
+          How to install and configure a development environment for Godot
+          Engine and C#
+        </div>
+
+        <p class="q-gutter-md q-my-xs">
+          <q-btn
+            type="a"
+            href="https://medium.com/@domresc/ep-1-installation-of-godot-engine-and-configuration-of-a-development-environment-for-c-4c051c209bfb?source=friends_link&sk=6690bec722b4387d247953e32a4a8902"
+            target="__blank"
+            round
+            flat
+            dense
+            icon="fab fa-medium"
+          ></q-btn>
+        </p>
+      </q-timeline-entry>
       <!-- End Medium -->
     </q-timeline>
   </q-page>
