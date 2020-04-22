@@ -34,6 +34,15 @@
         ></q-btn>
         <q-btn
           type="a"
+          href="https://medium.com/@domresc"
+          target="__blank"
+          round
+          flat
+          dense
+          icon="fab fa-medium-m"
+        ></q-btn>
+        <q-btn
+          type="a"
           href="mailto:domenico.rescigno@gmail.com"
           round
           flat
