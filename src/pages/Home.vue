@@ -21,7 +21,7 @@
           round
           flat
           dense
-          icon="fab fa-github"
+          icon="fab fa-github-square"
         ></q-btn>
         <q-btn
           type="a"
@@ -30,7 +30,7 @@
           round
           flat
           dense
-          icon="fab fa-linkedin-in"
+          icon="fab fa-linkedin"
         ></q-btn>
         <q-btn
           type="a"
@@ -39,7 +39,16 @@
           round
           flat
           dense
-          icon="fab fa-medium-m"
+          icon="fab fa-medium"
+        ></q-btn>
+        <q-btn
+          type="a"
+          href="https://dev.to/domresc"
+          target="__blank"
+          round
+          flat
+          dense
+          icon="fab fa-dev"
         ></q-btn>
         <q-btn
           type="a"
@@ -47,7 +56,7 @@
           round
           flat
           dense
-          icon="far fa-envelope"
+          icon="fas fa-envelope-square"
         ></q-btn>
       </p>
     </div>
