@@ -11,7 +11,7 @@
           Github.
         </div>
 
-        <p class="q-gutter-md q-my-xs">
+        <p class="q-my-md">
           <q-btn
             type="a"
             href="https://github.com/DomResc/domresc.github.io"
@@ -31,7 +31,7 @@
           released opensource on Github.
         </div>
 
-        <p class="q-gutter-md q-my-xs">
+        <p class="q-my-md">
           <q-btn
             type="a"
             href="https://github.com/DomResc/mrRemoteForKodi"

@@ -13,7 +13,7 @@
         Software Analyst, Game Designer
       </p>
 
-      <p class="q-gutter-md">
+      <p>
         <q-btn
           type="a"
           href="http://github.com/domresc"
