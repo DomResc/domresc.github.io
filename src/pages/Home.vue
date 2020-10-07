@@ -2,8 +2,14 @@
   <q-page>
     <div class="home text-center">
       <p>
-        <q-avatar class="avatar shadow-5" default="avatar">
-          <img src="~assets/avatar.png" alt="avatar" />
+        <q-avatar
+          class="avatar shadow-5"
+          default="avatar"
+        >
+          <img
+            src="~assets/avatar.png"
+            alt="avatar"
+          >
         </q-avatar>
       </p>
       <p class="text-h4 text-weight-thin">
@@ -22,7 +28,7 @@
           flat
           dense
           icon="fab fa-github-square"
-        ></q-btn>
+        />
         <q-btn
           type="a"
           href="https://www.linkedin.com/in/domresc/"
@@ -31,7 +37,7 @@
           flat
           dense
           icon="fab fa-linkedin"
-        ></q-btn>
+        />
         <q-btn
           type="a"
           href="https://medium.com/@domresc"
@@ -40,7 +46,7 @@
           flat
           dense
           icon="fab fa-medium"
-        ></q-btn>
+        />
         <q-btn
           type="a"
           href="https://dev.to/domresc"
@@ -49,7 +55,7 @@
           flat
           dense
           icon="fab fa-dev"
-        ></q-btn>
+        />
         <q-btn
           type="a"
           href="mailto:domenico.rescigno@gmail.com"
@@ -57,7 +63,7 @@
           flat
           dense
           icon="fas fa-envelope-square"
-        ></q-btn>
+        />
       </p>
     </div>
   </q-page>

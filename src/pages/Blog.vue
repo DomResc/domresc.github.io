@@ -1,8 +1,13 @@
 <template>
   <q-page>
-    <q-timeline class="q-pa-xl" :layout="layout">
+    <q-timeline
+      class="q-pa-xl"
+      :layout="layout"
+    >
       <!-- Medium -->
-      <q-timeline-entry heading>Medium</q-timeline-entry>
+      <q-timeline-entry heading>
+        Medium
+      </q-timeline-entry>
 
       <q-timeline-entry
         title="EP. 2 - Basics of developing a video game with Godot Engine in C#"
@@ -17,7 +22,7 @@
             flat
             dense
             icon="fab fa-medium"
-          ></q-btn>
+          />
         </p>
       </q-timeline-entry>
 
@@ -34,7 +39,7 @@
             flat
             dense
             icon="fab fa-medium"
-          ></q-btn>
+          />
         </p>
       </q-timeline-entry>
 
@@ -51,7 +56,7 @@
             flat
             dense
             icon="fab fa-medium"
-          ></q-btn>
+          />
         </p>
       </q-timeline-entry>
 
@@ -63,6 +68,11 @@
 <script>
 export default {
   name: "Blog",
+  data() {
+    return {
+      posts: []
+    };
+  },
   computed: {
     layout() {
       return this.$q.screen.lt.sm
@@ -71,11 +81,6 @@ export default {
         ? "comfortable"
         : "loose";
     }
-  },
-  data() {
-    return {
-      posts: []
-    };
   }
 };
 </script>
