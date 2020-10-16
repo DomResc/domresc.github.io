@@ -16,7 +16,7 @@
         Domenico Rescigno
       </p>
       <p class="text-subtitle1">
-        Software Analyst, Game Designer
+        Full stack web and mobile software developer, passionate about computer security and video games
       </p>
 
       <p>
