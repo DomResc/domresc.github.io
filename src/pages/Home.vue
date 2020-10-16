@@ -16,7 +16,7 @@
         Domenico Rescigno
       </p>
       <p class="text-subtitle1">
-        Full stack web and mobile software developer, passionate about computer security and video games
+        Full Stack Web and Mobile developer, passionate about Cyber Security and Video Games
       </p>
 
       <p>
