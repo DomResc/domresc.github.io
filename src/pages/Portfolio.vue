@@ -10,6 +10,27 @@
       </q-timeline-entry>
 
       <q-timeline-entry
+        title="jablotron-puppeteer"
+        subtitle="october, 2020"
+      >
+        <div>
+          Automate the use of Jablotron Alarm with Puppeteer for use with Alexa, Google Home, etc.
+        </div>
+
+        <p class="q-my-md">
+          <q-btn
+            type="a"
+            href="https://github.com/DomResc/jablotron-puppeteer"
+            target="__blank"
+            round
+            flat
+            dense
+            icon="fab fa-github"
+          />
+        </p>
+      </q-timeline-entry>
+
+      <q-timeline-entry
         title="domresc.github.io"
         subtitle="april, 2020"
       >
