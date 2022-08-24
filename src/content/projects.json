@@ -1,0 +1,42 @@
+[
+  {
+    "icon": "fab fa-github",
+    "link": "https://github.com/DomResc/adafruit-macropad-rp2040",
+    "title": "adafruit-macropad-rp2040",
+    "description": "A derivative of the Macropad Hotkeys example from the Adafruit Learning System Guide.",
+    "source": "GitHub repository",
+    "date": "june, 2022"
+  },
+  {
+    "icon": "fab fa-github",
+    "link": "https://github.com/DomResc/express-api",
+    "title": "express-api",
+    "description": "Super simple nodejs express webserver api with authentication, authorization, job scheduler and mongodb.",
+    "source": "GitHub repository",
+    "date": "july, 2021"
+  },
+  {
+    "icon": "fab fa-github",
+    "link": "https://github.com/DomResc/jablotron-puppeteer",
+    "title": "jablotron-puppeteer",
+    "description": "Automate the use of Jablotron Alarm with Puppeteer for use with Alexa, Google Home, etc.",
+    "source": "GitHub repository",
+    "date": "october, 2020"
+  },
+  {
+    "icon": "fab fa-github",
+    "link": "https://github.com/DomResc/domresc.github.io",
+    "title": "domresc.github.io",
+    "description": "Site developed using the beautiful Quasar framework, based on VueJS. If you like it you'll find all the source code and a little guide on Github.",
+    "source": "GitHub repository",
+    "date": "april, 2020"
+  },
+  {
+    "icon": "fab fa-github",
+    "link": "https://github.com/DomResc/mrRemoteForKodi",
+    "title": "mrRemote for Kodi",
+    "description": "mrRemote for Kodi is a Kodi/Xbmc remote control for Windows 10 and Windows 10 Mobile. Developed with Visual Studio using C#/Xaml and released opensource on Github.",
+    "source": "GitHub repository",
+    "date": "march, 2016"
+  }
+]

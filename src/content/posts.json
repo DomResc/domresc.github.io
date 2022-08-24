@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Adafruit Macropad RP2040",
+    "date": "june, 2022",
+    "link": "https://youtu.be/qujOgWU9dP0",
+    "icon": "fab fa-youtube"
+  },
+  {
+    "title": "EP. 2 - Basics of developing a video game with Godot Engine in C#",
+    "date": "may, 2020",
+    "link": "https://medium.com/@domresc/ep-2-basics-of-developing-a-video-game-with-godot-engine-in-c-121f46429c00?sk=508bd425a4d408fa2fd608160f6ce110",
+    "icon": "fab fa-medium"
+  },
+  {
+    "title": "EP. 1 - Installation of Godot Engine and configuration of a development environment for C#",
+    "date": "april, 2020",
+    "link": "https://medium.com/@domresc/ep-1-installation-of-godot-engine-and-configuration-of-a-development-environment-for-c-4c051c209bfb",
+    "icon": "fab fa-medium"
+  },
+  {
+    "title": "EP. 0  — Introduction: Why Godot, Why C#",
+    "date": "april, 2020",
+    "link": "https://medium.com/@domresc/ep-0-introduction-why-godot-why-c-b129a40362d5?source=friends_link&sk=ce2775ab39ec7907a9f89a55ff3f32d1",
+    "icon": "fab fa-medium"
+  }
+]
