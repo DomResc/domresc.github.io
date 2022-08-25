@@ -146,7 +146,7 @@ const layout = computed(() => {
 const paginationPosts = reactive({
   page: 1,
   currentPage: 1,
-  totalPages: 3,
+  totalPages: 5,
 });
 
 const paginationProjects = reactive({
