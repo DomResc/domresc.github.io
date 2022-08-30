@@ -146,13 +146,13 @@ const layout = computed(() => {
 const paginationPosts = reactive({
   page: 1,
   currentPage: 1,
-  totalPages: 5,
+  totalPages: 3,
 });
 
 const paginationProjects = reactive({
   page: 1,
   currentPage: 1,
-  totalPages: 5,
+  totalPages: 3,
 });
 
 const paginatedPosts = computed(() => {
@@ -178,5 +178,5 @@ const paginatedProjects = computed(() => {
   width: 125px
 
 .post
-  min-height: 500px
+  height: 550px
 </style>
